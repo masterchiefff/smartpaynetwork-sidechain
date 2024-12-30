@@ -1,0 +1,76 @@
+{
+    "name": "polygon-edge",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90129f90120f84694ebd6d342983efc5f41cbf922005c667fdfd801a0b097310e8da6599f7ada65ac1fcb8dbb8ef005eb7cf1710368d459de86112ef106eb64accf7ae6b97471e5b40930fa6c87f846944b667337d6dafe32670ccabaf0d1989c83d3d713b0a975d46439feca25f338e6f685576556af729ca12fd7679572fd21162b5795b4a5b35f35ebc0529d7b4a89b0b54ef242f8469435003c69d6a7dcbea4395af56193c9771a796082b0aa593f38be2a84d60cafebca7dc92ecd85f3a84056db6abd73cbbb081b8aae67a155895aedfd2858fbb7987e7bc77da1f84694c90f5fea7759a78cb17c37f47809cf45dc981399b0b5ad6c1d1fdfc0e1bcfe1ad432ccb24b548e1940ba56c7003e4122db664c5915e4480ca49ffc657d449eb37de5b8c65b80c28080c080",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0xe437D4E50cc2A93b6456e3feF4352b0dEecEb495": {
+                "balance": "0xde0b6b3a7640000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "baseFee": "0x0",
+        "baseFeeEM": "0x0",
+        "baseFeeChangeDenom": "0x0"
+    },
+    "params": {
+        "forks": {
+            "EIP150": {
+                "block": 0
+            },
+            "EIP155": {
+                "block": 0
+            },
+            "EIP158": {
+                "block": 0
+            },
+            "byzantium": {
+                "block": 0
+            },
+            "constantinople": {
+                "block": 0
+            },
+            "homestead": {
+                "block": 0
+            },
+            "istanbul": {
+                "block": 0
+            },
+            "londonfix": {
+                "block": 0
+            },
+            "petersburg": {
+                "block": 0
+            },
+            "quorumcalcalignment": {
+                "block": 0
+            },
+            "txHashWithType": {
+                "block": 0
+            }
+        },
+        "chainID": 100,
+        "engine": {
+            "ibft": {
+                "blockTime": 2000000000,
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0,
+        "burnContract": null,
+        "burnContractDestinationAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "bootnodes": [
+        "/ip4/127.0.0.1/tcp/10001/p2p/16Uiu2HAkvzzh4oNEjCVoTgetP1Y1hsimgs8p1rcmyj77crSi3YtL",
+        "/ip4/127.0.0.1/tcp/20001/p2p/16Uiu2HAm6K8GuT1Zy3KJgWbfvrFsrcNEubi9k16ZitgdGNdGAvu8"
+    ]
+}

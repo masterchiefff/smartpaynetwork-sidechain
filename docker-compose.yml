@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  blockscout:
+    image: blockscout/blockscout:latest
+    depends_on:
+      - postgres
+    environment:
+      - ETHEREUM_JSONRPC_VARIANT=geth
+      - ETHEREUM_JSONRPC_HTTP_URL=http://your-polygon-edge-node:8545
+      - ETHEREUM_JSONRPC_WS_URL=ws://your-polygon-edge-node:8546
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/blockscout
+      - ECTO_USE_SSL=false
+      - COIN=EDGE
+      - NETWORK=Edge
+      - SUBNETWORK=Local Testnet
+      - LOGO=/images/polygon_edge_logo.svg
+      - LOGO_FOOTER=/images/polygon_edge_logo.svg
+      - ETHEREUM_JSONRPC_TRACE_URL=http://your-polygon-edge-node:8545
+      - SECRET_KEY_BASE=your_secret_key_base_at_least_64_bytes_long
+      - CHAIN_ID=100
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./logos:/opt/app/static/images
+
+  postgres:
+    image: postgres:13.6
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=blockscout
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:

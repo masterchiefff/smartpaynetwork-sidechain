@@ -1,0 +1,30 @@
+=============== Dec 20, 2024 (EAT) ===============
+17:15:43.116299 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:15:43.334852 db@open opening
+17:15:43.335650 version@stat F·[] S·0B[] Sc·[]
+17:15:43.445898 db@janitor F·2 G·0
+17:15:43.446043 db@open done T·111.090297ms
+18:07:16.696009 db@close closing
+18:07:16.794150 db@close done T·98.128479ms
+=============== Dec 20, 2024 (EAT) ===============
+18:31:42.481199 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:31:42.505178 version@stat F·[] S·0B[] Sc·[]
+18:31:42.505346 db@open opening
+18:31:42.505501 journal@recovery F·1
+18:31:42.506835 journal@recovery recovering @1
+18:31:42.687990 memdb@flush created L0@2 N·1 S·265B "\x01\xf4\x7f..\x04u7,v1":"\x01\xf4\x7f..\x04u7,v1"
+18:31:42.689665 version@stat F·[1] S·265B[265B] Sc·[0.25]
+18:31:43.068346 db@janitor F·3 G·0
+18:31:43.068491 db@open done T·563.086182ms
+23:53:19.242162 db@close closing
+23:53:19.276253 db@close done T·34.083747ms
+=============== Dec 30, 2024 (EAT) ===============
+13:04:10.871351 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:04:10.871992 version@stat F·[1] S·265B[265B] Sc·[0.25]
+13:04:10.872104 db@open opening
+13:04:10.872314 journal@recovery F·1
+13:04:10.875955 journal@recovery recovering @3
+13:04:10.965118 memdb@flush created L0@5 N·7 S·521B "\x01\xf4\x7f..\x04u7,v3":"\xdaU\xf1..\xdf\x06\x81,v5"
+13:04:10.966005 version@stat F·[2] S·786B[786B] Sc·[0.50]
+13:04:11.288778 db@janitor F·4 G·0
+13:04:11.288898 db@open done T·416.750994ms

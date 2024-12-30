@@ -1,0 +1,36 @@
+=============== Dec 20, 2024 (EAT) ===============
+17:15:43.447057 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:15:43.600697 db@open opening
+17:15:43.603233 version@stat F·[] S·0B[] Sc·[]
+17:15:43.667860 db@janitor F·2 G·0
+17:15:43.668035 db@open done T·67.178095ms
+18:07:16.328236 db@close closing
+18:07:16.328454 db@close done T·207.077µs
+=============== Dec 20, 2024 (EAT) ===============
+18:31:43.069343 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:31:43.178316 version@stat F·[] S·0B[] Sc·[]
+18:31:43.178497 db@open opening
+18:31:43.178711 journal@recovery F·1
+18:31:43.180431 journal@recovery recovering @1
+18:31:43.568155 memdb@flush created L0@2 N·3120 S·325KiB "b\x00\xd8..&\\\x1b,v552":"r\xfe\xea..ڀ\xec,v2126"
+18:31:43.569965 version@stat F·[1] S·325KiB[325KiB] Sc·[0.25]
+18:31:43.791338 db@janitor F·3 G·0
+18:31:43.791406 db@open done T·612.88214ms
+23:53:19.088936 db@close closing
+23:53:19.118885 db@close done T·29.933181ms
+=============== Dec 30, 2024 (EAT) ===============
+13:04:11.289911 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:04:11.290274 version@stat F·[1] S·325KiB[325KiB] Sc·[0.25]
+13:04:11.290335 db@open opening
+13:04:11.290555 journal@recovery F·1
+13:04:11.292896 journal@recovery recovering @3
+13:04:11.874297 memdb@flush created L0@5 N·20826 S·2MiB "b\x00%..\xf0$I,v8674":"r\xff\xea..\xfc\xde<,v17934"
+13:04:11.874706 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+13:04:12.077763 db@janitor F·4 G·0
+13:04:12.077832 db@open done T·787.472202ms
+13:06:48.388430 table@compaction L0·2 -> L1·0 S·2MiB Q·23976
+13:06:48.625444 table@build created L1@8 N·13428 S·2MiB "b\x00%..\xf0$I,v8674":"h\xecC..vWf,v126"
+13:06:48.726404 table@build created L1@9 N·3678 S·264KiB "h\xecV..w\xabV,v11412":"r\xff\xea..\xfc\xde<,v17934"
+13:06:48.726571 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+13:06:48.850012 table@compaction committed F~ S-158KiB Ke·0 D·6840 T·461.450322ms
+13:06:48.850362 table@remove removed @2
